@@ -1,7 +1,8 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
-}
+} 
+
 
 .logo {
   font-size: 48px;
@@ -23,3 +24,17 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+} 
